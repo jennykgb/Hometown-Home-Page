@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: #3E3F42;
+}
+
+.hero{
+    background: url(./Pictures/Colombia.jpeg);
+    background-size: cover;
+    border: 4px solid #D9B69E;
+    height: 500px;
+}
+
+.cover-title{
+    background-color: #36566D;
+    color: white;
+    width:fit-content;
+    margin: 150px auto 10px auto;
+    padding: 5px 12px;
+    border-radius: 10px;
+    text-shadow: 0 0 3px black;
+}
+
+.cover-sub{
+    background-color: #E16585;
+    color: white;
+    width: 355px;
+    margin: 6px auto 127px auto;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-shadow: 0 0 3px black;
+}
+
+.sites{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.placesf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 250px;
+    padding-top: 30px;
+}
+
+.pics{
+    width: 250px;
+    height: 170px;
+    border: 6px solid white;
+    border-radius: 30%;
+    margin: 0 auto 0 auto;
+    
+
+}
+
+#monseratte{
+    background-image: url("./Pictures/Monserrate\ day.jpg");
+    background-size: 260px;   
+}
+
+#monseratte:hover{
+    background-image: url("./Pictures/Monserrate\ night.jpg");
+}
+
+#guatape{
+    background-image: url("./Pictures/Penol\ de\ Guatape.jpg");
+    background-size: 250px;
+}
+
+#guatape:hover{
+    background-image: url("./Pictures/Piedra\ 2.png");
+    background-size: 345px;
+}
+
+#tayrona{
+    background-image: url("./Pictures/Tayrona.jpg");
+    background-size: 335px;
+}
+
+#tayrona:hover{
+    background-image: url("./Pictures/Tayrona2.jpg");
+}
+
+.title{
+    margin-bottom: 0;
+}
+
+.description{
+    margin-top: 17px;
+}
+
+.jenny{
+    width: 200px;
+    height:min-content;
+    margin: 17px 5px 17px 15px;
+    border-radius: 10px;
+}
+
+.guide{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width:500px;
+    height: 300px;
+    margin: auto;
+    background-color: #36566D;
+    color:white;
+    text-shadow: 0 0 6px #3E3F42;
+}
+
+.guideinfo{
+    margin: 30px 20px 0 5px;
+}
+
+.footer{
+    height: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
